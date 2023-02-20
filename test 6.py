@@ -7,7 +7,7 @@ panjang=int(input("Masukkan panjang yang ingin ditutupi ubin: "))
 if (1*ubin1 +5*ubin5)>= panjang:
     #berarti mungkin bisa
     #cek apakah cukup pakai ubin
-    if panjang%5==0 and panjang//5<= ubin5 
+    if panjang%5==0 and panjang//5<= ubin5:
         print ("bisa")
     elif panjang//5<= ubin5 and panjang%5<=ubin1:
         print ("bisa")
